@@ -1,0 +1,169 @@
+<html>
+    <header>
+        <title>HTML/CSS Cheatsheet</title>
+        <link href="styles.css" rel="stylesheet">
+        <script language="javascript" type="text/javascript" src="index.js"></script>
+        <nav>
+            <button id="html">
+                <a href="index.html" title="Übersicht über HTML Code">HTML</a>
+             </button id="css">
+             <button>
+                <a href="css.html" title="Übersicht über CSS Code">CSS</a>
+             </button> 
+        </nav>
+    </header>
+    <body>
+        <h1>CSS Cheatsheet</h1>
+
+        <h2 id="text">Text</h2>
+
+        <table>
+        <thead>
+        <tr>
+            <th width="200" height="50">Name</th>
+            <th width="200" height="50">Property</th>
+            <th width="300" height="50">Werte</th>
+            <th width="500" height="50">Erklärung</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th height="50">Textausrichtung</th>
+            <td height="50">text-align</td>
+            <td height="50">left, right, center, justify</td>
+            <td height="50">Richtet den Text entsprechend der Einstellungen aus</td>
+        </tr>
+        <tr class="grau">
+            <th height="50">Schriftart</th>
+            <td height="50">font-family</td>
+            <td height="50">Liste an Schriftarten mit Komma getrennt</td>
+            <td height="50">Setzt bestimmte Schriftarten für den entsprechenden Abschnitt</td>
+        </tr>
+
+        <tr>
+            <th height="50">Schriftstärke</th>
+            <td height="50">font-weight</td>
+            <td height="50">normal, bold, lighter, bolder</td>
+            <td height="50">Stärke der Buchstaben</td>
+        </tr>
+
+        <tr class="grau">
+            <th height="50">Schriftgöße</th>
+            <td height="50">font-size</td>
+            <td height="50">bevorzugt x em oder x px</td>
+            <td height="50">Setzt Schriftgröße für entsprechenden Abschnitt</td>
+        </tr>
+
+        <tr>
+            <th height="50">Textverzierung</th>
+            <td height="50">text-decoration-style</td>
+            <td height="50">dotted, dashed, solid, double, wavy</td>
+            <td height="50">Modifiziert Darstellung von Text</td>
+        </tr>
+
+        <tr class="grau">
+            <th height="50">Textfarbe</th>
+            <td height="50">color</td>
+            <td height="50">hsl(), rgb(a)(), hex oder englische Farben</td>
+            <td height="50">Ändert die Farbe des Textes</td>
+        </tr>
+        </tbody>
+        </table>
+
+        <h2 id="">Abstände, Positionierung und Größen</h2>
+
+        <table> 
+        <thead>
+        <tr>
+            <th width="200" height="50">Name</th>
+            <th width="200" height="50">Property</th>
+            <th width="300" height="50">Werte</th>
+            <th width="500" height="50">Erklärung</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th height="50">Abstand nach außen</th>
+            <td height="50">margin</td>
+            <td height="50">px oder %</td>
+            <td height="50">top, bottom, left, right</td>
+        </tr>
+
+        <tr class="grau">
+            <th height="50">Abstand nach Innen</th>
+            <td height="50">padding</td>
+            <td height="50">px oder %</td>
+            <td height="50">top, bottom, left, right</td>
+        </tr>
+
+        <tr>
+            <th height="50">Position der Elemente</th>
+            <td height="50">position</td>
+            <td height="50">static, relative, fixed, absolute, sticky</td>
+            <td height="50">top, bottom, left, right (nicht bei static)</td>
+        </tr>
+
+        <tr class="grau">
+            <th height="50">Ausrichtung</th>
+            <td height="50">float</td>
+            <td height="50">none, left, right</td>
+            <td height="50">Ausrichtung von Text</td>
+        </tr>
+
+        <tr>
+            <th height="50">Höhe/Breite</th>
+            <td height="50">height/width</td>
+            <td height="50">px oder %</td>
+            <td height="50">Höhe von Text oder Element</td>
+        </tr>
+        </tbody>
+        </table>
+        <h2 id="">Ränder</h2>
+        <table>
+        <thead>
+        <tr>
+            <th width="200" height="50">Name</th>
+            <th width="200" height="50">Property</th>
+            <th width="300" height="50">Werte</th>
+            <th width="500" height="50">Erklärung</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th height="50">Randstil</th>
+            <td height="50">border-style</td>
+            <td height="50">dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden</td>
+            <td height="50">benötigt für weitere Border-Settings</td>
+        </tr>
+
+        <tr class="grau">
+            <th height="50">Randdicke</th>
+            <td height="50">border-width</td>
+            <td height="50">bevorzugt px</td>
+            <td height="50">Stärke des Rahmens</td>
+        </tr>
+
+        <tr>
+            <th height="50">Randfarbe </th>
+            <td height="50">border-color</td>
+            <td height="50">hsl(), rgb(a), hex oder englische Farben</td>
+            <td height="50">Farbe des Randes</td>
+        </tr>
+
+        <tr class="grau">
+            <th height="50">Randrundung </th>
+            <td height="50">border-radius</td>
+            <td height="50">bevorzugt px</td>
+            <td height="50">abgerundete Ecken</td>
+        </tr>
+
+        <tr>
+            <th height="50">einzelne Ränder</th>
+            <td height="50">border-top/bottom/left/right-x</td>
+            <td height="50">siehe Oben</td>
+            <td height="50">Einzelne Ränder, sowohl style, als auch border-radius</td>
+        </tr>
+        </tbody>
+        </table>
+    </body>
+</html>
